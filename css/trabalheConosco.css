@@ -1,0 +1,91 @@
+.login {
+    max-width: 400px;
+    background-color: #fff;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+
+.campos {
+    margin-bottom: 20px;
+}
+
+.form-group, .control_user, .control_google {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif ;
+    font-weight: 500;
+}
+
+.control_user > p, .control_google > p {
+    color: #626060;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.campo_user {
+    width: 100%;
+    height: 25px;
+    border: 1px solid #CFCFCF;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.txt_link {
+    text-decoration: none;
+    color: #6280c7;
+}
+
+.btn_login, .btn_google {
+    background: #1874CD;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    border-radius: 50px;
+    border: 0;
+    text-transform: uppercase;
+}
+
+.c-pointer {
+    cursor: pointer;
+}
+
+.btn_google {
+    display: block;
+    background: #ffffff;
+    color: #000000;
+    text-transform: lowercase;
+    border: 1px solid #bab7b7;
+}
+
+.txt-saiba-mais {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .login {
+        margin-top: 20px;
+    }
+
+    .txt-saiba-mais {
+        display: none;
+    }
+}

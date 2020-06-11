@@ -1,0 +1,128 @@
+  /* soft reset do css
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  } */
+
+  * {
+    font-family: 'Bree Serif', serif;
+    font-family: 'Cabin', sans-serif;
+  }
+
+  a { 
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: pink;
+  }
+
+  /*#container {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+  }*/
+
+  .header {
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(255, 104, 104);
+    position: fixed;
+    top: 0;
+  }
+  
+  .header h1 {
+    text-align:center;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .menu {
+    justify-content:center;
+    align-items: center;
+    font-size: 17px;
+    background-color: rgb(255, 172, 172);
+    width: 100vw;
+    position: fixed;
+    top: 70px;
+  }
+
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .menu ul li {
+    list-style: none;
+  }
+  
+  .menu a {
+      display: block;
+      padding: 10px 40px;
+  }
+  
+  .img1 {
+    width: 400px;
+    padding-left: 900px;
+    position: absolute;
+    top: 200px;
+  }
+
+  
+  body {
+    /*background-color: rgb(250, 243, 234);*/
+    background-image:url(https://www.designerd.com.br/wp-content/uploads/2018/07/download.png);
+    background-size: auto 100vw 100vh;
+    height: 100vh;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Cabin', sans-serif;
+  }
+  
+  /* breakpoint - se a tela tiver pelo menos 400px vai carregar estes estilos
+  @media (min-width: 400px) {
+      body {
+          font-size: 14px;
+      }
+  } */
+  
+  #content {
+    margin-top: 107px;
+    width: 100vw;
+  }
+
+  .empresa1 {
+    text-align: left;
+  }
+
+  .empresa1 h1, .empresa2 h1 {
+    padding: 75px;
+    font-size: 40px;
+  }
+
+  .empresa1 h2, .empresa2 h2 {
+    font-size: 30px;
+    padding-right: 400px;
+  }
+
+  .empresa3 {
+    padding-top: 75px;
+    padding-right: 400px;
+    padding-bottom: 75px;
+    font-size: 40px;
+  }
+
+  .footer {
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(255, 104, 104);
+}
+
+.txt-footer {
+    line-height: 60px;
+    text-align: center;
+}
